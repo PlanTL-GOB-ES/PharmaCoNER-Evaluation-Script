@@ -84,7 +84,7 @@ optional arguments:
 Basic Examples:
 
 Evaluate the single system output file '01.ann' against the gold standard file '01.ann'
-for the NER subtrack. Input files in BRAT format.
+for the `NER` subtrack. Input files in BRAT format.
 
 <pre>
 $> python evaluate.py ner gold/01.ann system/run1/01.ann
@@ -101,7 +101,7 @@ Document ID                        Measure        Micro
 
 
 Evaluate the single system output file '01.tsv' against the gold standard file '01.tsv' 
-for the Concept Indexing subtrack. Input files in TSV format.
+for the `Concept Indexing` subtrack. Input files in TSV format.
 
 <pre>
 $> python evaluate.py indexing gold/01.tsv system/run1/01.tsv
@@ -118,7 +118,7 @@ Document ID                        Measure        Micro
 
 
 Evaluate the set of system outputs in the folder system/run1 against the set of gold 
-standard annotations in gold/ using the Concept Indexing subtrack. Input files in TSV 
+standard annotations in gold/ using the `Concept Indexing` subtrack. Input files in TSV 
 format.
 
 <pre>
@@ -136,7 +136,7 @@ Total (15 docs)                    Precision      0.3468
 
 
 Evaluate the set of system outputs in the folder system/run1, system/run2 and in the 
-folder system/run3 against the set of gold standard annotations in gold/ using the NER
+folder system/run3 against the set of gold standard annotations in gold/ using the `NER`
 subtrack. Input files in BRAT format.
 
 <pre>
