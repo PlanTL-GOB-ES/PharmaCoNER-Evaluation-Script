@@ -88,7 +88,13 @@ class IndexingAnnotation(Annotation):
         if file_name is not None:
             for row in open(file_name, 'r'):
                 line = row.strip()
-                self.indexes.append(line)
+                sys_id = line.split("\t")[0]
+                sys_code = line.split("\t")[1]
+                if sys_id == self.doc_id:
+                    self.indexes.append(sys_code)
+                else:
+                    self.indexes.append(sys_code)
+                    print("WARNING: Filename '" + self.doc_id + "' and File ID '" + sys_id +"' does not match")
 
 
 class Evaluate(object):
