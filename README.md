@@ -184,9 +184,6 @@ Aitor Gonzalez-Agirre (aitor.gonzalez@bsc.es)
 ## License
 -------
 
-## License
--------
-
 Copyright (c) 2019 Secretaría de Estado para el Avance Digital (SEAD)
 
 Permission is hereby granted, free of charge, to any person obtaining a 
